@@ -1,0 +1,14 @@
+{
+  "name": "cv-2022",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "rm -rf dist; parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "private": true
+  
+}

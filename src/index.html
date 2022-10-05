@@ -80,6 +80,7 @@
         .bio p{
             color: #666;
             margin-top: 1.8em ;
+            margin-left: 1.3em;
             margin-bottom: 1em;
         }
         .icon {
@@ -182,37 +183,31 @@
         </div>
     </section>
 
+    
+    <section class="skills">
+        <h3>技能</h3>
+        <hr>
+        <div class="wrapper">
+            <div id="skills"></div>
+            <ul>
+                <li>1、熟悉页面制作技巧，能将设计稿<strong>完美还原</strong> </li>
+                <li>2、熟练掌握HTML5+CSS3+SCSS</li>
+                <li>3、熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
+                <li>4、熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
+                <!-- <li>4、熟练掌握 <strong>React全家桶</strong>的使用，包括 create-react-app、ReactRouter、Redux 等</li> -->
+                <li>5、熟悉 <strong>ES6</strong>，包括 let / Promise / await / 析构赋值</li>
+                <li>6、了解 <strong>TypeScript</strong> 的使用，我的项目就是 TS 实现的</li>
+                <li>7、了解 <strong>Webpack 的配置和优化</strong></li>
+            </ul>
+        </div>
+    </section>
 
     <section class="projects">
         <h3>项目经历</h3>
         <hr>
         <ol>
-            <li>
-                <header>
-                    <h4>谷UI</h4>
-                    <span>
-                      <a href="#">源码链接</a>
-                      <a href="#">项目预览</a>
-                    </span>
-                </header>
-                <p>
-                    一款基于 <strong>React</strong> / <strong>TypeScript</strong> / <strong>Webpack</strong> 的 UI 框架。
-
-                </p>
-                <p>
-                    主要组件有日期选择器、弹出框、<strong>下拉更新</strong>、树形选择器等。
-
-                </p>
-                <p>
-                    已被公司前端同事广泛使用，有效提高前端团队的开发效率。
-
-                </p>
-                <p>
-                    制作过程让我对 TypeScript 和单元测试有了新的认识。
-                    我将其总结成了一篇博客《TS 泛型的使用》。
-                </p>
-            </li>
-            <li>
+           
+            <!-- <li>
                 <header>
                     <h4>写代码啦.com</h4>
                     <span>
@@ -230,17 +225,17 @@
                 <p>
                     该系统<strong>大幅提高教学效率</strong>，优化教学流程，受到公司和用户的好评。
                 </p>
-            </li>
+            </li> -->
             <li>
                 <header>
-                    <h4>旺财记账</h4>
+                    <h4>懒人记账</h4>
                     <span>
-              <a href="#">源码私有</a>
-              <a href="#">项目预览</a>
+              <a href="https://github.com/pengmingtaoo/loon-account-vueTag">源码私有</a>
+              <a href="https://pengmingtaoo.github.io/loon-account-website">项目预览</a>
             </span>
                 </header>
                 <p>
-                    一个基于 <strong>React</strong> / <strong>TypeScript</strong> 的移动端单页面应用。
+                    一个基于 <strong>Vue</strong> / <strong>TypeScript</strong> 的移动端单页面应用。
                 </p>
 
                 <p>
@@ -248,28 +243,11 @@
                     而且可以通过图表查看自己的消费习惯。
                 </p>
                 <p>
-                    该项目大量使用 <strong>React Hooks</strong>，让我对 Hooks 有了深刻的理解和应用。
+                    该项目使用 <strong>VueX</strong>，<strong>vue-router</strong>，<strong>ECharts</strong>，让我对 <strong>全局状态管理</strong> 有了深刻的理解和应用。
                 </p>
+                <p>关于懒人记账项目我写了一篇博客总结 <a href="https://juejin.cn/post/7150677377838907423">懒人记账 项目总结</a>。</p>
             </li>
         </ol>
-    </section>
-
-
-    <section class="skills">
-        <h3>技能</h3>
-        <hr>
-        <div class="wrapper">
-            <div id="skills"></div>
-            <ul>
-                <li>1、熟悉页面制作技巧，能将设计稿<strong>完美还原</strong> </li>
-                <li>2、熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
-                <li>3、熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
-                <li>4、熟练掌握 <strong>React全家桶</strong>的使用，包括 create-react-app、ReactRouter、Redux 等</li>
-                <li>5、熟悉 <strong>ES6</strong>，包括 let / Promise / await / 析构赋值</li>
-                <li>6、了解 <strong>TypeScript</strong> 的使用，我的项目就是 TS 实现的</li>
-                <li>7、了解 <strong>Webpack 的配置和优化</strong></li>
-            </ul>
-        </div>
     </section>
 
 
@@ -279,38 +257,42 @@
     <ul>
         <li>
             <header>
-                <h4>自己写的 DOM 库</h4>
+                <h4>自己写的 Cnode 社区</h4>
                 <span>
-                    <a href="https://github.com/pengmingtaoo/DOM-1">源码链接</a>
+                <a href="https://github.com/pengmingtaoo/cnode">源码链接</a>
+                <a href="https://pengmingtaoo.github.io/cnode/dist/index.html">项目预览</a>
                 </span>
             </header>
-            <p>实现了元素选择、元素创建、<strong>事件委托</strong>、滑动手势等常见功能</p>
+            <p>使用<strong>Vue+vue-router+axios</strong></p>
+        </li>
+        <li>
+            <header>
+                <h4>彩虹画板</h4>
+                <span>
+              <a href="https://github.com/pengmingtaoo/rainbow_canvas">源码链接</a>
+              <a href="https://pengmingtaoo.github.io/rainbow_canvas/dist/index.html">项目预览</a>
+            </span>
+            </header>
+            <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
+            <p><strong>功能描述：</strong>画画、签字、选择画笔大小、选择画笔颜色、橡皮擦擦除、清屏功能、保存图片、撤销、反撤销等</p>
+            <p>关于彩虹画板项目我写了一篇博客总结 <a href="https://juejin.cn/post/7133874211860267038">彩虹画板 项目总结</a>。</p>
         </li>
         <li class="page2">
             <header>
                 <h4>会动的哆啦A梦</h4>
                 <span>
-              <a href="#">源码链接</a>
-              <a href="https://pengmingtaoo.github.io/pikachu-2/index">项目预览</a>
+              <a href="https://github.com/pengmingtaoo/Doraemon">源码链接</a>
+              <a href="https://pengmingtaoo.github.io/Doraemon/dist">项目预览</a>
             </span>
             </header>
             <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品</p>
-        </li>
-        <li>
-            <header>
-                <h4>简易画板</h4>
-                <span>
-              <a href="#">源码链接</a>
-              <a href="#">项目预览</a>
-            </span>
-            </header>
-            <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
+            <p>我写了一篇博客总结 <a href="https://juejin.cn/post/7135461905870782472">会动的哆啦A梦</a>。</p>
         </li>
     </ul>
     </section>
 
 
-    <section class="jobs">
+    <!-- <section class="jobs">
         <h3>工作经历</h3>
         <hr>
         <ol>
@@ -345,13 +327,13 @@
                 </ul>
             </li>
         </ol>
-    </section>
+    </section> -->
 
     <section class="others">
         <h3>其他链接</h3>
         <hr>
         <ul>
-            <li><a href="https://juejin.cn/user/990010278415847">我的博客</a>，目前已有 21 篇技术文章</li>
+            <li><a href="https://juejin.cn/user/990010278415847">我的博客</a>，目前已有 58 篇技术文章</li>
             <li><a href="https://github.com/pengmingtaoo">我的 GitHub</a>，过去三个月有 200 次提交</li>
         </ul>
     </section>
